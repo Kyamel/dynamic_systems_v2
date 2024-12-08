@@ -1,0 +1,158 @@
+/* styles.css */
+
+/* Ajusta o comprimento dos sliders */
+#grafico-interativo {
+    height: 90vh;
+    width: 90vw;
+}
+#grafico-interativo-2 {
+    height: 90vh;
+    width: 90vw;
+}
+/* Adicione estilos para a classe comum */
+.common-slider .rc-slider-rail {
+    width: auto;
+    margin: auto;
+}
+/* Adicione estilos para o Slider vermelho */
+.slider-pontoA .rc-slider-rail {
+    background: linear-gradient(to right, red, red 0%, red 100%);
+    width: 100%; /* Garante que a cor preencha todo o trilho */
+}
+
+.slider-pontoA .rc-slider-handle {
+    border: 2px solid red;
+}
+
+/* Adicione estilos para o Slider laranja */
+.slider-pontoB .rc-slider-rail {
+    background: linear-gradient(to right, orange, orange 0%, orange 100%);
+    width: 100%; /* Garante que a cor preencha todo o trilho */
+}
+
+.slider-pontoB .rc-slider-handle {
+    border: 2px solid orange;
+}
+
+/* Adicione estilos para o Slider amarelo */
+.slider-pontoC .rc-slider-rail {
+    background: linear-gradient(to right, yellow, yellow 0%, yellow 100%);
+    width: 100%; /* Garante que a cor preencha todo o trilho */
+}
+
+.slider-pontoC .rc-slider-handle {
+    border: 2px solid yellow;
+}
+
+/* Adicione estilos para o Slider preto */
+.slider-iteracoes .rc-slider-rail {
+    background: linear-gradient(to right, black, black 0%, black 100%);
+    width: 100%; /* Garante que a cor preencha todo o trilho */
+}
+
+.slider-iteracoes .rc-slider-handle {
+    border: 2px solid black;
+}
+
+/* >>>>>> TEXTOS <<<<<<*/
+.graph_page{
+    width: auto;
+    margin: auto;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.title{
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial;
+    width: 80%;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5%;
+}
+.logo{
+    width: 8%;
+    float: right;
+}
+.text_for_graph {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    float: left;
+    margin-right: auto;
+}
+.graph{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 10px;
+    float: left; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.graph_menu{
+    background-color: rgb(255, 236, 255);
+    border-radius: 10px;
+    width: 25%;
+    float: right; 
+    margin-left: auto;
+    margin-right: 5%;
+    margin-bottom: auto;
+    margin-top: 50px;
+    padding: 16px;
+}
+.graph_slider{
+    background-color: rgb(255, 246, 241);
+    border-radius: 10px;
+    width: 100%;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 64px;
+    padding: 16px;
+}
+.checklist{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.userFuncBox{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+/* >>>>>> VISUALIZAÇÂO DINÂMICA <<<<<< */
+@media only screen and (max-width: 600px) {
+    .graph_page{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .title{
+        width: 100%;
+    }
+    .logo{
+        width: 12%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .text_for_graph_1{
+        width: 100%;
+    }
+    .graph{
+        width: 100%;
+    }
+    .graph_menu {
+        width: 100%;
+        clear: both;
+        margin-top: auto;
+    }
+    .checklist{
+    margin-top: 10%;
+    }
+} 
